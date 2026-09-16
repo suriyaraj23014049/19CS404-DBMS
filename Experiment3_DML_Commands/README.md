@@ -76,7 +76,8 @@ update Employees set salary=8000 where employee_id=105 and salary<5000;
 ```
 
 **Output:**
-![alt text](image-9.png)
+<img width="1130" height="162" alt="image" src="https://github.com/user-attachments/assets/1c3ef366-1505-4f03-b3e7-9d47e1c13ff9" />
+
 
 **Question 2**
 
@@ -109,7 +110,8 @@ update Products set reorder_lvl=reorder_lvl*0.70 where cost_price>50 and quantit
 
 **Output:**
 
-![alt text](image-8.png)
+<img width="1337" height="280" alt="image" src="https://github.com/user-attachments/assets/f1e0f99c-2a31-438d-9b94-23f6e02b1588" />
+
 
 **Question 3**
 
@@ -131,7 +133,8 @@ update sales set sell_price=sell_price*1.05 where product_id=15 and sale_date='2
 ```
 
 **Output:**
-![alt text](image-7.png)
+<img width="1037" height="233" alt="image" src="https://github.com/user-attachments/assets/c577d988-c530-46b2-aa68-68267761d693" />
+
 
 
 **Question 4**
@@ -173,7 +176,8 @@ update Employees set first_name='John' where department_id=80 and commission_pct
 
 **Output:**
 
-![alt text](image-6.png)
+<img width="1777" height="288" alt="image" src="https://github.com/user-attachments/assets/e04b37f1-f6e8-4963-998d-397bb4fa20b8" />
+
 
 **Question 5**
 
@@ -209,7 +213,8 @@ update employees set EMAIL='not available',COMMISSION_PCT=0.55 where DEPARTMENT_
 ```
 
 **Output:**
-![alt text](image-5.png)
+<img width="1087" height="230" alt="image" src="https://github.com/user-attachments/assets/21abafe1-50cf-411e-a644-4549c1b41928" />
+
 
 
 **Question 6**
@@ -239,7 +244,8 @@ delete from Surgeries where surgery_date='2024-02-28';
 ```
 
 **Output:**
-![alt text](image-4.png)
+<img width="1117" height="247" alt="image" src="https://github.com/user-attachments/assets/d3416cec-db0d-441f-94b6-31d8353f6022" />
+
 
 
 **Question 7**
@@ -271,7 +277,8 @@ delete from Customer where Grade%2<>0;
 
 **Output:**
 
-![alt text](image-3.png)
+<img width="1910" height="256" alt="image" src="https://github.com/user-attachments/assets/4d7b083d-0e8f-4e51-b084-cc37c3bdd8bf" />
+
 
 **Question 8**
 
@@ -301,7 +308,8 @@ delete from Customer where (Grade=3 or Agent_Code='A008') and OUTSTANDING_AMT<50
 ```
 
 **Output:**
-![alt text](image-2.png)
+<img width="1858" height="230" alt="image" src="https://github.com/user-attachments/assets/4feec894-7b69-4410-8e1e-39fd02f02275" />
+
 
 
 **Question 9**
@@ -338,7 +346,8 @@ delete from Customer where WORKING_AREA='New York';
 
 **Output:**
 
-![alt text](image-1.png)
+<img width="1742" height="458" alt="image" src="https://github.com/user-attachments/assets/04527a52-51f8-4b27-856a-66f0e2f0c9e5" />
+
 
 **Question 10**
 ```
@@ -371,7 +380,8 @@ delete from Customer where CUST_NAME like '%Holmes%';
 
 **Output:**
 
-![alt text](image.png)
+<img width="1736" height="333" alt="image" src="https://github.com/user-attachments/assets/55990b10-15fa-4fd3-a65c-95adeee87fba" />
+
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
